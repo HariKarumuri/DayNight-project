@@ -1,0 +1,87 @@
+/* hacks and tricsks
+
+ ===========>       
+ text-shadow:
+         -1px -1px 0 #000,  
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
+
+           */
+
+
+
+/*-----------variables-----*/
+
+
+
+
+
+/*----------------mobile styles-------------------------------*/
+*{
+        margin: 0;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase ;
+}
+
+
+.day{
+        height: 100vh;
+        background-image: url(./images/adriel-kloppenburg-04zTvMalMfU-unsplash.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-size: cover;
+        background-position: bottom;
+
+        
+
+
+        
+}
+.btnDay, .btnNight{
+        width: 100px;
+        height: 50px;
+        border-radius: 2rem;
+        border-style: none;
+        box-shadow: 1px 1px 5px black;
+        cursor: pointer;
+}
+button{
+        
+        font-size: 1rem;
+        background: rgba(255, 255, 255, 0.5);
+        
+        
+}
+.night{
+        height: 100vh;
+        background-image: url(./images/nathan-anderson-L95xDkSSuWw-unsplash.jpg);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        background-size: cover;
+        background-position: bottom;
+
+
+}
+
+
+
+
+/*-------------------small screen---------------------- */
+@media screen and (min-width : 600px){
+    
+}
+
+
+
+/*--------------------------tablets and laptops--------------------------*/
+@media screen and (min-width : 1000px){
+    
+}
+
+
+/*--------------------------larger screens-----------------*/
